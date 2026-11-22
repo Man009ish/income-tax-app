@@ -1,21 +1,25 @@
 {
   "name": "आयकर गणना प्रपत्र पोर्टल",
   "short_name": "आयकर पोर्टल",
-  "start_url": "./index.html",
+  "id": "/income-tax-app/",
+  "start_url": "/income-tax-app/index.html",
+  "scope": "/income-tax-app/",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "icon-192.png",
+      "src": "icon.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "icon-512.png",
+      "src": "icon.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
